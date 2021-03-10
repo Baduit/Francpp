@@ -11,7 +11,7 @@
 #define bit_et bitand
 #define bit_ou bitor
 //#define bool
-#define casser break
+#define interruption break
 #define cas case
 #define attrape catch
 #define caractere char
@@ -60,7 +60,7 @@
 #define protege protected
 #define publique public
 	
-#define enregistrer register
+#define registre register
 #define moulage_reinterprete reinterpret_cast
 #define retourne return
 #define court short
@@ -86,12 +86,18 @@
 #define virtuel virtual
 #define vide void
 //#define volatile
-#define caractere_sauvage wchar_t
+#define caractere_large wchar_t
 #define tant_que while
 #define ou_exclusif xor
 #define ou_exlusif_egale xor_eq 
 
 #define reecrit override
 //#define final
+
+#define requiert requires
+
+#define co_attend co_await
+#define co_retourne co_return
+#define co_cede co_yield
 
 #endif
