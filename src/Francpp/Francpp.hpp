@@ -100,4 +100,6 @@
 #define co_retourne co_return
 #define co_cede co_yield
 
+#define evaluation_constante consteval
+
 #endif
