@@ -14,7 +14,7 @@ int	main()
 	entier e = 90;
 	caractere c = 'a';
 	si (e > 60)
-		std::cout << "Bonjour! => " << lancer_statique<entier>(c) << std::endl;
+		std::cout << "Bonjour! => " << moulage_statique<entier>(c) << std::endl;
 	sinon
 		std::cout << "Salut!" << std::endl;
 	retourne 0;
